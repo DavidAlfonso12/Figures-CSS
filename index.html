@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacciones Js + HTML + CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="panel-lateral">
+        <a href="#" onclick="panelateral()" class="close">X</a>
+        <h2>Menu Principal</h2>
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicio</a>
+            <a href="#">Contacto</a>
+        </ul>
+    </div>
+
+    <div class="panel-superior">
+        <a href="#" onclick="panelSuperior()" class="closeSup">X</a>
+        <h2>Menu Principal</h2>
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicio</a>
+            <a href="#">Contacto</a>
+        </ul>
+    </div>
+
+    <section>
+         <div class="left">
+            <h2 >Interacciones</h2>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rectangulo()">RECTANGULO</button>
+            <button onclick="rombo()">ROMBO</button>
+            <button onclick="imagen()">IMAGEN</button>
+            <button onclick="gif()">GIF</button>
+            <button onclick="triangulo()">TRIANGULO</button>
+            <button onclick="hoja()">HOJA</button>
+            <button onclick="pacman()">PAC MAN</button>
+            <button onclick="luna()">LUNA</button>
+            <button onclick="huevo()">HUEVO</button>
+            <button onclick="trapecio()">TRAPECIO</button>
+            <button onclick="moveTop()">MOVE TOP</button>
+            <button onclick="moveLeft()">MOVE LEFT</button>
+            <button onclick="moveBottom()">MOVE BOTTOM</button>
+            <button onclick="moveRight()">MOVE RIGHT</button>
+            <button onclick="panelSuperior()">PANEL SUPERIOR</button>
+            <button onclick="panelateral()">PANEL LATERAL</button>
+            <button onclick="imgfondo()">CAMBIAR IMAGEN FONDO</button>
+            <button onclick="color()">CAMBIAR COLOR PRINCIPÁL</button>
+            <button onclick="sorpresa()">SURPRISE</button>
+
+        </div>
+
+         <div class="right">
+            <h2 id="titulo">Figura</h2>
+            <div id="figura"></div>
+        </div>
+
+    </section>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
