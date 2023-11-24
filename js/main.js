@@ -113,6 +113,6 @@ function color(){
 }
 
 function sorpresa(){
-    titulo.innerText = 'Sorpresa';
-    
+    titulo.innerText = 'Reloj de arena';
+    figura.classList.toggle('estrella');
 }
